@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <title>Breeder Directory</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        hr {
+              border: 0;
+              height: 1px;
+              background-color: rgba(35, 35, 35, 0.25); 
+              margin: 2rem 0;
+            }
+        .directory {
+            width: 1440px;
+            margin: 0 auto;
+        }
+
+        .alphabet-bar {
+            text-align: center;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 1;
+        }
+
+        .alphabet-bar a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .letter {
+            font-weight: bold;
+            margin-top: 20px;
+            color: #bda974;
+            font-size: 2rem;
+        }
+
+        .farm {
+            margin-bottom: 10px;
+            display: inline-block;
+            width: 30%; /* Display farms in 3 columns */
+            min-height:15rem;
+            vertical-align: top;
+            padding: 10px 0 10px 0;
+            box-sizing: border-box;
+        }
+        @media screen and (max-width:1460px){
+            .directory {
+            width: 100% !important;
+            margin:auto !important;
+            padding:2rem;
+        }
+
+        }
+        @media screen and (max-width: 768px) {
+            .farm {
+                width: 100%; /* Switch to a single column on smaller screens */
+            }
+        }
+
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!---navbar-->
+<div class="navbar w-nav" id="navbar">
+   <section class="main-nav w-container">
+    <a class="brand w-nav-brand">
+      <img src="mha-logo.png" alt="Logo" style="max-width: 301px;">
+    </a>
+    <nav role="navigation" class="nav-menu w-nav-menu"><a href="https://mbhereford.webflow.io/" class="nav-link w-nav-link" style="
+    margin-right: 0;">Back to Main Site</a></nav>
+    
+  </section>
+</div>
+<!--navbar-->
+
+<!--hero image-->
+  <div class="hero-image">
+    <img src="hero-image.jpg" alt="Hero Image" style="width: 100%;">
+  </div>
+<!--hero image-->
+
+
+
+
+<!--------------Directory Start------------------>
+
+    <div class="directory">
+        <h3 style="text-align:center;">Breeder Directory</h3>
+
+        <div class="alphabet-bar">
+            <a href="#A">A</a>
+            <a href="#B">B</a>
+            <a href="#C">C</a>
+            <a href="#D">D</a>
+            <a href="#E">E</a>
+            <a href="#F">F</a>
+            <a href="#G">G</a>
+            <a href="#H">H</a>
+            <a href="#I">I</a>
+            <a href="#J">J</a>
+            <a href="#K">K</a>
+            <a href="#L">L</a>
+            <a href="#M">M</a>
+            <a href="#N">N</a>
+            <a href="#0">0</a>
+            <a href="#P">P</a>
+            <a href="#R">R</a>
+            <a href="#S">S</a>
+            <a href="#T">T</a>
+            <a href="#V">V</a>
+            <a href="#W">W</a>
+            <a href="#X">X</a>
+            <a href="#Z">Z</a>
+            <!-- Add more letters as needed -->
+        </div>
+
+        <!-- Section A -->
+        <div id="A" class="letter">A</div>
+        <div class="farm">
+        <!-- Farm A data here -->
+        <h4>Allen, Phil & Lesley</h4>
+        <h5>Allenhurst Herefords</h5>
+        <p>Box 7, Group 20, R R 2, Roblin, MB, R0L 1P0</p>
+        <a href="tel:(204) 937-3789">Phone: (204) 937-3789</a><br>
+        <a href="mailto:Lesleyonthefarm@Yahoo.Ca">Email: Lesleyonthefarm@Yahoo.Ca</a><br>
+        <a href="#">Website:</a> <!-- You can add the website link if available -->
+        </div>
+<hr>
+        <!-- Section B -->
+        <div id="B" class="letter">B</div>
+        <div class="farm">
+        <!-- Farm A data here -->
+        <h4>Batho Farms Ltd</h4>
+        <p>Box 10, Oak Lake, MB, R0M 1P0</p><br>
+        <a href="tel:(204) 855-2404">Phone: (204) 855-2404</a>
+        </div>
+
+        <div class="farm">
+        <h4>Batho, Kathy</h4>
+        <h5>Kdb Ranching</h5>
+        <p>Box 10, Oak Lake, MB, R0M 1P0</p><br>
+        <a href="tel:(204) 855-2404">Phone: (204) 855-2404</a><br>
+        </div>
+
+        <div class="farm">
+            <!-- Farm A data here -->
+            <h4>Beachell, Jim</h4>
+            <h5>Rawcliffe Grange Stock Farm</h5>
+            <p>Box 6, Rosser, MB, R0H 1E0</p>
+            <a href="tel:(204) 467-8809">Phone: (204) 467-8809</a><br>
+            <a href="mailto:Jim@Rawcliffe.Ca">Email: Jim@Rawcliffe.Ca</a><br>
+            <a href="http://www.Rawcliffe.Ca">Website: www.Rawcliffe.Ca</a><br>
+        </div>
+
+        <div class="farm">
+            <h4>Blaine, Brent & Corrine<br>Blaine, Cooper </h4>
+            <h5>Flyer Cattle Co</h5>
+            <p>Site 200, P O Box 24, RR#2, Brandon, MB, R7A 5Y2</p>
+            <p>Brent (204) 724-2294 | Cooper (204) 573-6298</p>
+            <a href="mailto:Bblaine2002@Yahoo.Com">Email: Bblaine2002@Yahoo.Com</a>
+        </div>
+
+        <div class="farm">
+            <!-- Farm A data here -->
+            <h4>Brandson, Fred</h4>
+            <h5>Brandson Bros</h5>
+            <p>Box 59, Lundar, MB, R0C 1Y0</p>
+            <a href="tel:(204) 762-5641">Phone: (204) 762-5641</a><br>
+            <a href="mailto:Abrandson59@Gmail.Com">Email: Abrandson59@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <!-- Farm A data here -->
+            <h4>Brandson, Tara</h4>
+            <p>Box 246, Lundar, MB, R0C 1Y0</p>
+            <a href="tel:(204) 762-5641">Phone: (204) 762-5641</a><br>
+            <a href="mailto:Abrandson59@Gmail.Com">Email: Abrandson59@Gmail.Com</a>
+        </div>
+
+         <div class="farm">
+            <!-- Farm A data here -->
+            <h4>Burton, Murray</h4>
+            <p>37074 Garven Rd, Anola, MB, R5L 0B4</p>
+            <a href="tel:(204) 250-9805">Phone: (204) 250-9805</a><br>
+            <a href="mailto:qb5gen@gmail.com">Email: qb5gen@gmail.com</a>
+        </div>       
+<hr>
+        <!-- Section C -->
+        <div id="C" class="letter">C</div>
+        <div class="farm">
+        <h4>Calvert, Grant & Braden</h4>
+        <h5>Calvert Cattle Company</h5>
+        <p>Box 819, Carberry, MB, R0K 0H0</p>
+        <a href="tel:(204) 724-6839">Phone (Grant): (204) 724-6839</a><br>
+        <a href="mailto:Gjcalvert@Mymts.Net">Email (Grant): Gjcalvert@Mymts.Net</a><br>
+        <a href="tel:(204) 573-7404">Phone (Braden): (204) 573-7404</a><br>
+        <a href="mailto:Braden.Calvert@Gmail.Com">Email (Braden): Braden.Calvert@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Chase, Duncan</h4>
+            <p>Box 981, Roblin, MB, R0L 1P0</p>
+            <a href="tel:(204) 937-4976">Phone: (204) 937-4976</a>
+        </div>
+
+        <div class="farm">
+            <h4>Chevalier, David</h4>
+            <h5>Chevalier Polled Herefords</h5>
+            <p>Box 339, Swan Lake, MB, R0G 2S0</p>
+            <a href="tel:(204) 836-2643">Phone: (204) 836-2643</a><br>
+            <a href="mailto:chevalierds63@gmail.com">Email: chevalierds63@gmail.com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Chobotar, Martin</h4>
+            <p>Box 385, Vita, MB, R0A 2K0</p>
+            <a href="tel:(204) 425-3820">Phone: (204) 425-3820</a>
+        </div>
+
+        <div class="farm">
+            <h4>Clark, Barry L</h4>
+            <p>R R 4, Grandview, MB, R0L 0Y0</p>
+            <a href="tel:(204) 546-2187">Phone: (204) 546-2187</a><br>
+            <p>Life Member</p>
+        </div>
+
+        <div class="farm">
+            <h4>Clark, Rodney T</h4>
+            <h5>Clark's Polled Herefords</h5>
+            <p>Rr 4, Grandview, MB, R0L 0Y0</p>
+            <a href="tel:(204) 546-2015">Phone: (204) 546-2015</a><br>
+            <p>Life Member</p>
+        </div>
+
+        <div class="farm">
+            <h4>Craig, Roy</h4>
+            <p>460 - 622 Centre Ave, Stonewall, MB, R0C 2Z0</p>
+            <a href="tel:(204) 467-8179">Phone: (204) 467-8179</a>
+        </div>
+
+        <div class="farm">
+            <h4>Crawford Bros</h4>
+            <p>Box 158, Argyle, MB, R0C 0B0</p>
+            <a href="tel:(204) 467-5755">Phone: (204) 467-5755</a>
+        </div>
+
+        <div class="farm">
+            <h4>Cruise, J A</h4>
+            <p>Box 620, Lundar, MB, R0C 1Y0</p>
+            <a href="tel:(204) 664-5425">Phone: (204) 664-5425</a><br>
+            <p>Life Member</p>
+        </div>
+<hr>
+        <!-- Section D -->
+        <div id="D" class="letter">D</div>
+         <div class="farm">
+            <h4>Dueck, Bernard</h4>
+            <h5>Firdale Polled Herefords</h5>
+            <p>R R 1, Austin, MB, R0H 0C0</p>
+            <a href="tel:(204) 466-2635">Phone: (204) 466-2635</a><br>
+            <a href="mailto:Ruth.Dueck@Stridecu.Ca">Email: Ruth.Dueck@Stridecu.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>De Vuyst, Joe</h4>
+            <h5>De Vuyst Farms</h5>
+            <p>Box 415, Manitou, MB, R0G 1G0</p>
+            <a href="tel:(204) 208-1003">Phone: (204) 208-1003</a><br>
+            <a href="mailto:Joedevuyst@Gmail.Com">Email: Joedevuyst@Gmail.Com</a>
+        </div>
+        
+<hr>
+        <!-- Section E -->
+        <div id="E" class="letter">E</div>
+
+        <div class="farm">
+            <h4>Elias Herefords</h4>
+            <p>Box 411, Vita, MB, R0A 2K0</p>
+            <a href="tel:(204) 425-3164">Phone: (204) 425-3164</a>
+        </div>
+
+
+        <div class="farm">
+            <h4>Erickson, Ken J</h4>
+            <p>Box 521, Lundar, MB, R0C 1Y0</p>
+            <a href="tel:(204) 762-5006">Phone: (204) 762-5006</a><br>
+            <a href="mailto:Erickson@Mymts.Net">Email: Erickson@Mymts.Net</a>
+        </div>
+
+<hr>
+        <!-- Section F -->
+        <div id="F" class="letter">F</div>
+        <div class="farm">
+            <h4>Finlay, Scott & Gena</h4>
+            <h5>Finlay Farm</h5>
+            <p>R R 1, Bowsman, MB, R0L 0H0</p>
+            <a href="tel:(204) 238-4580">Phone: (204) 238-4580</a><br>
+            <a href="mailto:Finlay.Gena@Yahoo.Ca">Email: Finlay.Gena@Yahoo.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Fossay, Bryan & Faye</h4>
+            <h5>Fossay Herefords</h5>
+            <p>R R 1, Woodlands, MB, R0C 3H0</p>
+            <a href="tel:(204) 795-0961">Phone: (204) 795-0961</a><br>
+            <a href="mailto:Bryan@Fossayherefords.Ca">Email: Bryan@Fossayherefords.Ca</a><br>
+            <a href="http://www.Fossayherefords.Ca">Website: www.Fossayherefords.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Fox, Ben & Linda</h4>
+            <h5>Justamere Farms Ltd</h5>
+            <p>R R 4 Comp 30, Dauphin, MB, R7N 2T7</p>
+            <a href="tel:(204) 638-4181">Phone: (204) 638-4181</a><br>
+            <a href="mailto:Justamereranch@Gmail.Com">Email: Justamereranch@Gmail.Com</a><br>
+            <a href="http://www.Justamereranches.Com">Website: www.Justamereranches.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Fox, Virginia</h4>
+            <h5>Justamere Holdings Ltd</h5>
+            <p>Box 128, Ste Rose Du Lac, MB, R0L 1S0</p><br>
+            <a href="tel:(204) 638-8103">Phone: (204) 638-8103</a><br>
+            <a href="mailto:Justamere@Sasktel.Net">Email: Justamere@Sasktel.Net</a>
+        </div>
+
+        <div class="farm">
+            <h4>Funk, Kevin & Jennifer</h4>
+            <h5>Acorn Ridge Polled Herefords</h5>
+            <p>P O Box 59, Kleefeld, MB, R0A 0V0</p>
+            <a href="tel:(204) 377-4906">Phone: (204) 377-4906</a><br>
+            <a href="mailto:Acornridgeherefords@Gmail.Com">Email: Acornridgeherefords@Gmail.Com</a>
+        </div>
+<hr>
+        <!-- Section G -->
+        <div id="G" class="letter">G</div>
+        <div class="farm">
+            <h4>Gartner, Joseph</h4>
+            <h5>Beaver Dam Farm</h5>
+            <p>R R 2 Site 30, Box 127, Brandon, MB, R7A 5Y2</p>
+            <a href="mailto:Joe_Gartner2007co.Ltd@Hotmail.Com">Email: Joe_Gartner2007co.Ltd@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Gleich, David Matthew</h4>
+            <p>Box 153, Eriksdale, MB, R0C 0W0</p>
+            <a href="tel:(204) 739-5492">Phone: (204) 739-5492</a><br>
+            <a href="mailto:Gleichn@Hotmail.Com">Email: Gleichn@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Grycki, Jason</h4>
+            <h5>Grycki Stock Farm</h5>
+            <p>32073 Melrose Rd, Cooks Creek, MB, R5M 0C1</p>
+            <a href="tel:(204) 268-4636">Phone: (204) 268-4636</a><br>
+            <a href="mailto:Jlgrycki@Gmail.Com">Email: Jlgrycki@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Guilford, Dave & Carol<br>Guilford, Rod & Kristi </h4>
+            <h5>Guilford Farms</h5>
+            <p>Box 39, Clearwater, MB, R0K 0M0</p>
+            <a href="tel:(204) 873-2466">Phone: (204) 873-2466</a><br>
+            <a href="mailto:Rodg@Mymts.Net">Email: Rodg@Mymts.Net</a><br>
+            <a href="http://www.Guilfordfarms.Com">Website: www.Guilfordfarms.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Guilford, Don & Diane</h4>
+            <h5>Guilford Hereford Ranch</h5>
+            <p>Box 100, Clearwater, MB, R0K 0M0</p>
+            <a href="tel:(204) 873-2430">Phone: (204) 873-2430</a>
+        </div>
+
+        <div class="farm">
+            <h4>Gullett, Dan</h4>
+            <p>Box 298, Wawanesa, MB, R0K 2G0</p>
+            <a href="tel:(204) 824-2723">Phone: (204) 824-2723</a><br>
+            <a href="mailto:Mdg37caws@Gmail.Com">Email: Mdg37caws@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Gulka, Ken & Janelle</h4>
+            <h5>Twin View Polled Herefords</h5>
+            <p>Box 448, Strathclair, MB, R0J 2C0</p>
+            <a href="tel:(431) 282-3030">Ken: (431) 282-3030</a><br>
+            <a href="tel:(204) 365-0931">Janelle: (204) 365-0931</a><br>
+            <a href="mailto:Herefords@Twinviewfarms.Com">Email: Herefords@Twinviewfarms.Com</a><br>
+            <a href="http://www.Twinviewfarms.Com">Website: www.Twinviewfarms.Com</a>
+        </div>
+<hr>
+        <!-- Section H -->
+        <div id="H" class="letter">H</div>
+
+        <div class="farm">
+            <h4>Hamel Cattle</h4>
+            <p>P O Box 402, Reston, MB, R0M 1X0</p>
+            <a href="tel:(204) 877-3857">Phone: (204) 877-3857</a>
+        </div>
+
+         <div class="farm">
+            <h4>Hunter, Jimmy <br>Hunter, Michael </h4>
+            <h5>Hunter Polled Herefords</h5>
+            <p>Box 569, Roblin, MB, R0L 1P0</p>
+            <a href="tel:(204) 937-2531">Phone: (204) 937-2531</a><br>
+            <a href="mailto:Jimmyhunter@Hotmail.Com">Email: Jimmyhunter@Hotmail.Com</a>
+        </div>
+               
+        <div class="farm">
+            <h4>Horner, Alan</h4>
+            <p>Box 1305, Minnedosa, MB, R0J 1E0</p>
+            <a href="tel:(204) 867-2087">Phone: (204) 867-2087</a><br>
+            <p>Life Member</p>
+        </div>
+
+        <div class="farm">
+            <h4>Hyndman, Kevin & Holly</h4>
+            <h5>Rock'n "H" Herefords</h5>
+            <p>Box 388, Hamiota, MB, R0M 0T0</p>
+            <a href="tel:(204) 764-0331">Phone: (204) 764-0331</a><br>
+            <a href="mailto:Hollyrknh@Goinet.Ca">Email: Hollyrknh@Goinet.Ca</a><br>
+            <a href="http://www.Rocknabh.Com">Website: www.Rocknabh.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Hyndman, Orianna</h4>
+            <h5>Red Fox Ranch</h5>
+            <p>Box 388, Hamiota, MB, R0M 0T0</p>
+            <a href="tel:(431) 757-3064">Phone: (431) 757-3064</a><br>
+            <a href="mailto:Crlyhereford@Gmail.Com">Email: Crlyhereford@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Hyndman, Teegan</h4>
+            <h5>Hyndman Cattle Co.</h5>
+            <p>Box 388, Hamiota, MB, R0M 0T0</p>
+            <a href="tel:(431) 757-3064">Phone: (431) 757-3064</a><br>
+            <a href="mailto:Thyndman11@Gmail.Com">Email: Thyndman11@Gmail.Com</a>
+        </div>
+<hr>
+        <!-- Section I -->
+        <div id="I" class="letter">I</div>
+        <div class="farm">
+            <h4>Irwin, David</h4>
+            <p>Box 14, Isabella, MB, R0M 0Y0</p>
+            <a href="tel:(204) 562-3555">Phone: (204) 562-3555</a>
+        </div>
+
+        <div class="farm">
+            <h4>Irwin, Ryan</h4>
+            <h5>Jackson Creek Polled Herefords</h5>
+            <p>Box 115, Sinclair, MB, R0M 2A0</p>
+            <a href="tel:(204) 662-4019">Phone: (204) 662-4019</a><br>
+            <a href="mailto:Rirwin4591@Hotmail.Com">Email: Rirwin4591@Hotmail.Com</a>
+        </div>
+<hr>
+        <!-- Section J -->
+        <div id="J" class="letter">J</div>
+        <div class="farm">
+            <h4>Jackson, Glen</h4>
+            <p>P O Box 82, Sinclair, MB, R0M 2A0</p>
+            <a href="tel:(204) 851-2607">Phone: (204) 851-2607</a><br>
+            <a href="mailto:Glen.Jackson24@Hotmail.Com">Email: Glen.Jackson24@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Jones, Phil & Vivian</h4>
+            <h5>Penrose Farms</h5>
+            <p>Group 405 Box 7 R R 4, Brandon, MB, R7A 5Y4</p>
+            <a href="tel:(204) 728-6080">Phone: (204) 728-6080</a><br>
+            <a href="mailto:Jonesp@Mymts.Net">Email: Jonesp@Mymts.Net</a>
+        </div>
+<hr>
+        <!-- Section K -->
+        <div id="K" class="letter">K</div>
+        <div class="farm">
+            <h4>Kartanson, Vernon D</h4>
+            <p>Box 205, Minnedosa, MB, R0J 1E0</p>
+            <a href="tel:(204) 867-2627">Phone: (204) 867-2627</a><br>
+            <a href="mailto:Vgcart@Mymts.Net">Email: Vgcart@Mymts.Net</a>
+        </div>
+
+        <div class="farm">
+            <h4>Kopeechuk, Andrew</h4>
+            <h5>Rsk Farms</h5>
+            <p>Group 520 Box 7, Brandon, MB, R7A 5Y5</p>
+            <a href="tel:(204) 573-9529">Phone: (204) 573-9529</a><br>
+            <a href="mailto:Rskfarms@Hotmail.Com">Email: Rskfarms@Hotmail.Com</a><br>
+            <a href="http://www.Rskfarms.Ca">Website: www.Rskfarms.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Kopeechuk, Rae & Stephanie</h4>
+            <h5>Rsk Farms</h5>
+            <p>Group 520 Box 7, Brandon, MB, R7A 5Y5</p>
+            <a href="tel:(204) 763-4459">Phone: (204) 763-4459</a><br>
+            <a href="mailto:Stephan1@Mymts.Net">Email: Stephan1@Mymts.Net</a><br>
+            <a href="http://www.Rskfarms.Ca">Website: www.Rskfarms.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Koroscil, Trey & Samantha</h4>
+            <h5>Am Ranching</h5>
+            <p>Box 443, Birtle, MB, R0M 0C0</p>
+            <a href="tel:(204) 855-2534">Phone: (204) 855-2534</a><br>
+            <a href="mailto:Samantha.Rimke@Gmail.Com">Email: Samantha.Rimke@Gmail.Com</a>
+        </div>
+<hr>
+        <!-- Section L -->
+        <div id="L" class="letter">L</div>
+        <div class="farm">
+            <h4>Landels, Travis & Tracy</h4>
+            <h5>Butler Valley Livestock</h5>
+            <p>P O Box 122, Cromer, MB, R0M 0J0</p>
+            <a href="tel:(204) 556-2044">Phone: (204) 556-2044</a><br>
+            <a href="mailto:Travislandels@Gmail.Com">Email: Travislandels@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Larsen, Allen</h4>
+            <h5>Glennethy Farms</h5>
+            <p>Box 1480, Russell, MB, R0J 1W0</p>
+            <a href="tel:(204) 773-3866">Phone: (204) 773-3866</a><br>
+            <a href="mailto:Gnfarms@Mynetset.Ca">Email: Gnfarms@Mynetset.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Lavallee, Colette Anne</h4>
+            <p>Box 7, Eriksdale, MB, R0C 0W0</p>
+            <a href="tel:(204) 664-5356">Phone: (204) 664-5356</a>
+        </div>
+
+        <div class="farm">
+            <h4>Law, Mark</h4>
+            <p>Box 5, Cypress River, MB, R0K 0P0</p>
+            <a href="tel:(204) 743-2049">Phone: (204) 743-2049</a>
+        </div>
+<hr>
+        <!-- Section M -->
+        <div id="M" class="letter">M</div>
+        <div class="farm">
+            <h4>Manitoba Hereford Association</h4>
+            <p>R R 1, Wawanesa, MB, R0K 2G0</p>
+            <p>Sadie McCauley  - Secretary <a href="tel:(204) 821-5372">(204) 821-5372</p>
+            <p>Janelle Gulka - CHA Director <a href="tel:(204) 365-0931">(204) 365-0931</p>
+        </div>
+
+        <div class="farm">
+            <h4>Manns, Roy</h4>
+            <h5>Manns Herefords</h5>
+            <p>R R 1, Austin, MB, R0H 0C0</p>
+            <a href="tel:(204) 466-2722">Phone: (204) 466-2722</a>
+        </div>
+
+        <div class="farm">
+            <h4>Manns, Steven</h4>
+            <h5>Manns Herefords</h5>
+            <p>Box 478, Austin, MB, R0H 0C0</p>
+            <a href="tel:(204) 526-0426">Phone: (204) 526-0426</a><br>
+            <a href="mailto:Mannsstevend@Gmail.Com">Email: Mannsstevend@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Martens, Wendell & Michelle</h4>
+            <h5>W Bar M Farms</h5>
+            <p>27144 Rd 32 North, Kleefeld, MB, R0A 0V1</p>
+            <a href="tel:(204) 377-4379">Phone: (204) 377-4379</a><br>
+            <a href="mailto:Wbarmfarms@Gmail.Com">Email: Wbarmfarms@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>McConnell, Bill & Leanne</h4>
+            <h5>Sinnibar Stock Farm</h5>
+            <p>Box 85, Russell, MB, R0J 1W0</p>
+            <a href="tel:(204) 796-0789">Phone: (204) 796-0789</a><br>
+            <a href="mailto:Sinnibarfarm@Hotmail.Com">Email: Sinnibarfarm@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>McDonald, Ernie & Marge</h4>
+            <h5>Twin View Polled Herefords</h5>
+            <p>Box 236, Strathclair, MB, R0J 2C0</p>
+            <a href="tel:(204) 365-7426">Phone: (204) 365-7426</a><br>
+            <a href="tel:(204) 759-2188">Phone: (204) 759-2188</a><br>
+            <a href="mailto:Herefords@Twinviewfarms.Com">Email: Herefords@Twinviewfarms.Com</a><br>
+            <a href="http://www.Twinviewfarms.Com">Website: www.Twinviewfarms.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>McIntosh, James & Vernette</h4>
+            <h5>Mc Finn Acres</h5>
+            <p>Box 115, Poplarfield, MB, R0C 2N0</p>
+            <a href="tel:(204) 494-0367">Phone: (204) 494-0367</a><br>
+            <a href="mailto:Mcfinnacres@Hotmail.Com">Email: Mcfinnacres@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>McFadyen, Shane</h4>
+            <p>Box 37, Bowsman, MB, R0L 0H0</p>
+            <a href="tel:(204) 238-4734">Phone: (204) 238-4734</a><br>
+            <a href="mailto:Shane-13-@Hotmail.Com">Email: Shane-13-@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Michaud, Raymond</h4>
+            <p>Box 1 Group 41 R R 2, Ste Anne, MB, R5H 1R2</p>
+            <a href="tel:(204) 422-8716">Phone: (204) 422-8716</a><br>
+            <p>Life Member</p>
+        </div>
+
+        <div class="farm">
+            <h4>Mitchell, Brady</h4>
+            <p>Box 782, Killarney, MB, R0K 1G0</p>
+            <a href="tel:(204) 523-2103">Phone: (204) 523-2103</a><br>
+            <a href="mailto:Mitchell_1991@Live.Ca">Email: Mitchell_1991@Live.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Mitchell, Wally & Jackie</h4>
+            <h5>Roselawn Polled Herefords</h5>
+            <p>Box 782, Killarney, MB, R0K 1G0</p>
+            <a href="tel:(204) 534-8204">Phone: (204) 534-8204</a><br>
+            <a href="mailto:Wmitchell13@Hotmail.Com">Email: Wmitchell13@Hotmail.Com</a><br>
+            <a href="http://www.Roselawnfarms.Com">Website: www.Roselawnfarms.Com</a>
+        </div>
+<hr>
+        <!-- Section N -->
+        <div id="N" class="letter">N</div>
+        <div class="farm">
+            <h4>Naherniak, Michael & Rochelle</h4>
+            <h5>Bluebell Ridge</h5>
+            <p>Box 944, Grunthal, MB, R0A 0R0</p>
+            <a href="tel:(204) 434-6978">Phone: (204) 434-6978</a><br>
+            <a href="mailto:Thefiddlerandhiswife@Hotmail.Com">Email: Thefiddlerandhiswife@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Nichiporuk, Elisavata</h4>
+            <h5>Deer Haven Ranch</h5>
+            <p>Box 328, Minitonas, MB, R0L 1G0</p>
+            <a href="tel:(204) 281-0781">Phone: (204) 281-0781</a><br>
+            <a href="mailto:Lileikat@Hotmail.Ca">Email: Lileikat@Hotmail.Ca</a>
+        </div>
+
+<hr>
+        <!-- Section O -->
+        <div id="O" class="letter">O</div>
+        <div class="farm">
+            <h4>Olson, Oli K</h4>
+            <p>Box 156, St Martin, MB, R0C 2T0</p>
+            <a href="tel:(204) 659-2262">Phone: (204) 659-2262</a><br>
+            <a href="mailto:Okolson@Live.Ca">Email: Okolson@Live.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Olson, Wallace</h4>
+            <p>Box 792, Minnedosa, MB, R0J 1E0</p>
+            <a href="tel:(204) 867-3493">Phone: (204) 867-3493</a>
+        </div>
+
+        <div class="farm">
+            <h4>Otto, Gordon</h4>
+            <p>Box 336, Ashern, MB, R0C 0E0</p>
+            <a href="tel:(204) 768-2619">Phone: (204) 768-2619</a><br>
+            <a href="mailto:Baro@Tcmsnet.Com">Email: Baro@Tcmsnet.Com</a>
+        </div>
+<hr>
+<!-- Section P -->
+<div id="P" class="letter">P</div>
+<div class="farm">
+    <!-- Farm P data here -->
+</div>
+
+        <!-- Section R -->
+        <div id="R" class="letter">R</div>
+        <div class="farm">
+            <h4>Rankin, Blair & Bobbi</h4>
+            <h5>Chokecherry Lane Herefords</h5>
+            <p>R R 1, Wawanesa, MB, R0K 2G0</p>
+            <a href="tel:(204) 537-2216">Phone: (204) 537-2216</a><br>
+            <a href="mailto:Rankinbb@Goinet.Ca">Email: Rankinbb@Goinet.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Richaud, Troy & Katlyn</h4>
+            <h5>Richaud Stock Farms</h5>
+            <p>Box 1358, Portage La Prairie, MB, R1N 3N9</p>
+            <a href="tel:(204) 871-3559">Phone: (204) 871-3559 (Troy Cell)</a><br>
+            <a href="mailto:Rsf@Signaldirect.Ca">Email: Rsf@Signaldirect.Ca</a><br>
+            <a href="http://www.Richaudstockfarms.Com">Website: www.Richaudstockfarms.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Rimke, Albert & Michelle</h4>
+            <h5>A M Ranching</h5>
+            <p>Box 370, Oak Lake, MB, R0M 1P0</p>
+            <a href="tel:(204) 855-2534">Phone: (204) 855-2534</a><br>
+            <a href="tel:(204) 748-7640">Albert: (204) 748-7640</a><br>
+            <a href="mailto:Amrimke@Rfnow.Com">Email: Amrimke@Rfnow.Com</a><br>
+            <a href="http://www.Amranching.Com">Website: www.Amranching.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Rimke, Jay Ronald</h4>
+            <h5>A M Ranching</h5>
+            <p>Box 310, Oak Lake, MB, R0M 1P0</p>
+            <a href="tel:(204) 851-6134">Phone: (204) 851-6134</a><br>
+            <a href="mailto:Jayrimke@Gmail.Com">Email: Jayrimke@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Rimke, Levi Cole</h4>
+            <h5>Rimke Cattle</h5>
+            <p>Box 370, Oak Lake, MB, R0M 1P0</p>
+            <a href="tel:(204) 851-4515">Phone: (204) 851-4515</a>
+        </div>
+<hr>
+        <!-- Section S -->
+        <div id="S" class="letter">S</div>
+        <div class="farm">
+            <h4>Scheirlinck, Tyler A</h4>
+            <p>Box 1402, Boissevain, MB, R0K 0E0</p>
+            <a href="tel:(204) 534-7297">Phone: (204) 534-7297</a><br>
+            <a href="mailto:Twistingt@Hotmail.Com">Email: Twistingt@Hotmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Scott, Kevin</h4>
+            <h5>Rocking S Ranch</h5>
+            <p>P O Box 117, Mc Creary, MB, R0J 1B0</p>
+            <a href="tel:(204) 835-2641">Phone: (204) 835-2641</a><br>
+            <a href="mailto:Rockings@Mymts.Net">Email: Rockings@Mymts.Net</a>
+        </div>
+
+        <div class="farm">
+            <h4>Stocki, Kevin, Kristen & Khloe<br>Stocki, Janet</h4>
+            <h5>Greenridge Farms</h5>
+            <p>P O Box 89, Fisher Branch, MB, R0C 0Z0</p>
+            <a href="tel:(204) 372-6811">Phone: (204) 372-6811</a><br>
+            <a href="mailto:Greenridgeherefords@Gmail.Com">Email: Greenridgeherefords@Gmail.Com</a>
+        </div>
+<hr>
+        <!-- Section T -->
+        <div id="T" class="letter">T</div>
+        <div class="farm">
+            <h4>Troop, Doug & Jayne</h4>
+            <h5>Doug Troop Hereford Ranch</h5>
+            <p>Box 1 Site 400 R R 1, Brandon, MB, R7A 5Y1</p>
+            <a href="tel:(204) 728-3345">Phone: (204) 728-3345</a><br>
+            <a href="tel:(204) 724-8267">Cell: (204) 724-8267</a><br>
+            <a href="mailto:Jayne.Troop@Gmail.Com">Email: Jayne.Troop@Gmail.Com</a><br>
+            <p>Life Member</p>
+        </div>
+
+        <div class="farm">
+            <h4>Troop, Keith</h4>
+            <h5>Ktct Polled Herefords</h5>
+            <p>R R 4 Box 58, Portage La Prairie, MB, R1N 3A4</p>
+            <a href="tel:(204) 252-2787">Phone: (204) 252-2787</a><br>
+            <a href="tel:(204) 871-4458">Cell: (204) 871-4458</a><br>
+            <a href="mailto:Keithtroop@Gmail.Com">Email: Keithtroop@Gmail.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Truthwaite, Robert</h4>
+            <p>Box 10, Hodgson, MB, R0C 1N0</p>
+            <a href="tel:(204) 372-6515">Phone: (204) 372-6515</a>
+        </div>
+<hr>
+        <!-- Section V -->
+        <div id="V" class="letter">V</div>
+        <div class="farm">
+            <h4>Van Den Bussche, Neil & Jackie</h4>
+            <h5>Cypress River Ranch</h5>
+            <p>Box 177, Swan Lake, MB, R0G 2S0</p>
+            <a href="tel:(204) 526-7182">Phone: (204) 526-7182</a><br>
+            <a href="mailto:Cypressriverranch@Gmail.Com">Email: Cypressriverranch@Gmail.Com</a>
+        </div>
+<hr>
+        <!-- Section W -->
+        <div id="W" class="letter">W</div>
+        <div class="farm">
+            <h4>Webster, George</h4>
+            <h5>Winchester Cattle Company</h5>
+            <p>4253 Heathcote Road, Wayzata, MN, USA, 55391</p>
+            <a href="tel:(952) 473-9659">Phone: (952) 473-9659</a><br>
+            <a href="mailto:Gbwebster3@Aol.Com">Email: Gbwebster3@Aol.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Wells, Kyle</h4>
+            <h5>Wells Hereford Farm</h5>
+            <p>Site 145 Box 63 R R 1, Brandon, MB, R7A 5Y1</p>
+            <a href="tel:(204) 573-0551">Phone: (204) 573-0551</a><br>
+            <a href="mailto:Kylejwells@Outlook.Com">Email: Kylejwells@Outlook.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Wiebe, David</h4>
+            <h5>Performance Polled Herefords</h5>
+            <p>Box 37, Horndean, MB, R0G 0Z0</p>
+            <a href="mailto:Davidperformance1@Gmail.Com">Email: Davidperformance1@Gmail.Com</a><br>
+            <a href="https://www.performancepolledherefords.com" target="_blank">Website: www.performancepolledherefords.com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Woodhouse, Allan & Bonnie</h4>
+            <h5>Abh Farm</h5>
+            <p>Box 512, Hamiota, MB, R0M 0T0</p>
+            <a href="tel:(204) 764-0364">Phone: (204) 764-0364</a><br>
+            <a href="mailto:Albonnie@Inethome.Ca">Email: Albonnie@Inethome.Ca</a>
+        </div>
+
+        <div class="farm">
+            <h4>Wray, Ken & Judy</h4>
+            <p>Box 65, Tilston, MB, R0M 2B0</p>
+            <a href="tel:(204) 686-2289">Phone: (204) 686-2289</a><br>
+            <a href="tel:(204) 522-6117">Cell: (204) 522-6117</a><br>
+            <a href="mailto:Tiltoba@Yahoo.Com">Email: Tiltoba@Yahoo.Com</a>
+        </div>
+
+        <div class="farm">
+            <h4>Wright, Glenn</h4>
+            <p>45022 Garven Road, Anola, MB, R5L 0B5</p>
+            <a href="tel:(204) 794-5619">Phone: (204) 794-5619</a><br>
+            <a href="mailto:Gnwright@Mymts.Net">Email: Gnwright@Mymts.Net</a>
+        </div>
+<hr>
+        <!-- Section X -->
+        <div id="X" class="letter">X</div>
+        <div class="farm">
+            <h4>Xports International Inc</h4>
+            <h5>Rod & Kristi Guilford</h5>
+            <p>P O Box 129, Crystal City, MB, R0K 0N0</p>
+            <a href="tel:(204) 873-3844">Phone: (204) 873-3844</a><br>
+            <a href="mailto:Info@Xportsinternational.Ca">Email: Info@Xportsinternational.Ca</a><br>
+            <a href="https://www.xportsinternational.ca" target="_blank">Website: www.xportsinternational.ca</a>
+        </div>
+<hr>
+        <!-- Section Z -->
+        <div id="Z" class="letter">Z</div>
+        <div class="farm">
+            <h4>Zushman, Lanard</h4>
+            <p>Box 3326, Steinbach, MB, R5G 1P6</p>
+            <a href="tel:(204) 320-5251">Phone: (204) 320-5251</a>
+        </div>
+
+</div>
+
+<!--Footer-->
+<div class="footer"><div class="footer"><div class="w-layout-blockcontainer my-container w-container"><div id="w-node-f635da9a-40e5-2db5-d4f1-59e1cec3b3b9-db67a725" class="w-layout-layout wf-layout-layout"><div id="w-node-f635da9a-40e5-2db5-d4f1-59e1cec3b3ba-db67a725" class="w-layout-cell cell-4"><img src="https://assets-global.website-files.com/63ad80193ca698347ce56ed7/63ae6920cee58c3a5b1102c5_mha-logo.png" loading="lazy" alt=""></div><div id="w-node-_867b54a5-69e9-1cbc-9f58-3fe907a962cb-db67a725" class="w-layout-cell cell-9"><div><h4>Follow us</h4></div><div class="div-block-41"><div class="div-block-42"><a href="https://www.facebook.com/mb.hereford.assoc/" target="_blank" class="facebook-link w-inline-block"></a><a href="#" class="instagram-link w-inline-block"></a><a href="#" class="x-twitter-link w-inline-block"></a><a href="https://www.youtube.com/channel/UCRldmfids14JW-9Gq-sQEyg" target="_blank" class="youtube-link w-inline-block"></a></div></div></div><div id="w-node-_7b15e09c-fdce-7c20-ea03-2dbe9d5dd185-db67a725" class="w-layout-cell cell-6"><h4 class="heading-22">hereford Connection</h4><p class="paragraph-11"><a href="/stay-in-touch/newsletter-signup">Sign up</a> &nbsp;receive a mailed copy of the Manitoba Hereford Association Connection Newsletter and stay up to date with news and events from the MHA. Editions are available in the Spring and Fall. </p></div><div id="w-node-_465f0459-c3fc-049e-61db-bc5d845dbaff-db67a725" class="w-layout-cell"><div class="divider"></div></div><div id="w-node-_53278637-198c-7107-394b-21292293ad58-db67a725" class="w-layout-cell cell-7"><a href="#">2023 MANITOBA HEREFORD ASSOCATION</a></div><div id="w-node-_83ad957b-35cb-b8a1-389b-5499f267270c-db67a725" class="w-layout-cell cell-3"></div><div id="w-node-_3ac72722-6104-8c5a-fe22-7ca28f3d8299-db67a725" class="w-layout-cell"><a href="#" class="link-4">WEBSITE BY: THE WEBFLOFT</a></div></div></div></div></div>
+<!--Footer-->
+<script>
+        // Smooth scroll for alphabet links
+        const alphabetLinks = document.querySelectorAll('.alphabet-bar a');
+        alphabetLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Pagination code remains the same
+</script>
+<script>
+    // Add a scroll event listener to hide/show the navbar
+let prevScrollPos = window.pageYOffset;
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollPos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-200px"; // Adjust this value as needed
+  }
+  prevScrollPos = currentScrollPos;
+}
+</script>
+</body>
+</html>
